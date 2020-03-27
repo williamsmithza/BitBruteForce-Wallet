@@ -22,6 +22,8 @@ else
 
 i think is quite simple.
 
+Just run "python3 seekanddestroy.py bit.txt"
+
 If you like it!! **1KyQXpa1Zke5v94QZV2U77i7oaVwPTijdY**
 
 
