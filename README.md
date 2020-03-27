@@ -29,7 +29,7 @@ If you like it!! **1KyQXpa1Zke5v94QZV2U77i7oaVwPTijdY**
 
 REQUERIMENTS
 =
-
+ - Ubuntu 16
  - Python 3.x (i use 3.6.5) sudo apt-get install python3.6
  - pip3 install ecdsa
  - pip3 install base58
