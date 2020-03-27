@@ -28,8 +28,8 @@ If you like it!! **1KyQXpa1Zke5v94QZV2U77i7oaVwPTijdY**
 REQUERIMENTS
 =
 
- - Python 3.x (i use 3.6.5)
- - pip install ecdsa
- - pip install base58
+ - Python 3.x (i use 3.6.5) sudo apt-get install python3.6
+ - pip3 install ecdsa
+ - pip3 install base58
  - 3,000,000,000 Years
 
